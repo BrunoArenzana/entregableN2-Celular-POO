@@ -33,3 +33,7 @@ console.log("-----------Prender Apagar- celular 1 , 2 y 3 ----------")
 console.log("celular 1 "); cel1.prenderApagar();
 console.log("celular 2 "); cel2.prenderApagar();
 console.log("celular 2 "); cel3.prenderApagar();
+
+cel1.setpMarca("Motorola");
+cel1.setpModelo(" - ")
+cel1.mostrarInfo();

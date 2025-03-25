@@ -54,28 +54,33 @@ export class Celular {
     public setpModelo(pModelo: string) {
         this.modelo = pModelo;
     }
-
+    // get y set de ram
     public getpRam(): number {
         return this.ram ?? 8;
     }
     public setpRam(pRam: number) {
         this.ram = pRam;
     }
-
+    // get y set Almacenamieto
     public getpInterStorage(): number {
         return this.interStorage?? 64;
     }
     public setpInterStorage(pInterStorage: number) {
         this.interStorage = pInterStorage;
     }
-
+    // get y set Sist Operativo
+    
     public getpSistOp(): string {
         return this.sistOp;
     }
     public setpSistOp(pSistOp: string) {
         this.sistOp = pSistOp;
     }
+    // get y set de Prender Apagar
     public getOnOff(): boolean{
+        return this.onOff;
+    }
+    public setOnOff(): boolean {
         return this.onOff;
     }
 
